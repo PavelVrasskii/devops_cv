@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps CV - Terminal</title>
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="terminal">
+        <div class="typewriter">
+            <h1>Welcome to DevOps_CV.sh v2.0.1</h1>
+        </div>
+
+        <div class="prompt">
+            <div class="cursor"></div>
+        </div>
+
+        <div class="command" onclick="showSection('about')">./about_me.sh</div>
+        <div id="about" class="output" style="display: none;">
+            Name: Pavel Vrasskii
+            Role: DevOps Engineer
+            Location: Armagh, United Kingdom, BT60
+            Experience: 10+ years
+        </div>
+
+        <div class="command" onclick="showSection('skills')">ls skills/</div>
+<div id="skills" class="output" style="display: none;">
+<b class="highlight">CLOUD & INFRASTRUCTURE</b>
+✓ AWS/GCP Architecture      ✓ Proxmox/KVM Virtualization
+✓ Hybrid Cloud Deployments  ✓ Military-Grade VPN Solutions
+✓ DCIM Management           ✓ High-Availability Clustering
+
+<b class="highlight">CI/CD & AUTOMATION</b>
+✓ Jenkins Pipelines         ✓ Ansible Playbooks
+✓ Terraform IaC             ✓ Python/Bash Automation
+✓ TeamCity Integration      ✓ Bitnami Stack
+
+<b class="highlight">MONITORING & OBSERVABILITY</b>
+✓ Prometheus/Grafana Stack  ✓ Zabbix Custom Plugins
+✓ ELK Implementation        ✓ Synthetic Monitoring
+✓ Metric-Driven Optimization
+
+<b class="highlight">DEVOPS CORE COMPETENCIES</b>
+✓ Incident Response (SRE)   ✓ Disaster Recovery Planning
+✓ Blue/Green Deployments    ✓ Canary Releases
+✓ Secret Management         ✓ Immutable Infrastructure
+
+<b class="highlight">NETWORKING & SECURITY</b>
+✓ Cisco/Juniper Networks    ✓ Zero Trust Architecture 
+✓ Mikrotik SDN              ✓ IPSec/OpenVPN
+✓ Network Hardening         ✓ PCI-DSS Compliance
+
+<b class="highlight">DATABASES & STORAGE</b>
+✓ MySQL/Percona Tuning      ✓ MongoDB Sharding
+✓ PostgreSQL Replication    ✓ Redis Cluster
+✓ Oracle DB Administration  ✓ SAN/NAS Solutions
+
+<b class="highlight">LEGACY MODERNIZATION</b>
+✓ Monolith → Microservices  ✓ VM → Container Migration
+✓ PBX → VoIP Transition     ✓ Bare Metal → Cloud
+
+<b class="highlight">SPECIALIZED SKILLS</b>
+✓ Large-Scale Event Ops     ✓ Government Infra Compliance
+✓ Cross-Platform Deployments✓ Military Tech Integration
+✓ 50K+ RPS Systems          ✓ Multivendor Environments
+</div>
+
+        <div class="command" onclick="showSection('experience')">cat experience.log</div>
+<div id="experience" class="output" style="display: none;">
+[2023.Feb - 2024.Apr] DevOps Engineer @ Harbour ATS (UK)
+<span class="highlight">harbourats.com</span>
+✓ Achieved 99.95% uptime for 50+ production servers
+✓ Implemented disaster recovery plan reducing RTO by 40%
+✓ Optimized AWS infrastructure reducing monthly costs by 25%
+✓ Established Prometheus/Grafana monitoring for 200+ metrics
+✓ Automated 90% of routine operations via Ansible Playbooks
+
+[2022.Nov - 2023.Feb] IT Support Engineer (Volunteer) @ Precept IT (UK)
+<span class="highlight">precept.it</span>
+✓ Migrated 15TB+ data to Microsoft 365 for 50+ organizations
+✓ Implemented Zero Trust security for 200+ client networks
+✓ Automated VPN provisioning using Terraform
+✓ Reduced ticket response time by 35% via Bash automation
+
+[2019.Dec - 2020.Aug] DevOps Engineer @ Dialog-Telecom (RU)
+<span class="highlight">di-di.ru</span>
+✓ Accelerated deployment speed 3x via Jenkins CI/CD pipelines
+✓ Enhanced Zabbix monitoring with custom templates for 100+ devices
+✓ Implemented Infrastructure-as-Code for Proxmox cluster (Ansible/Python)
+✓ Reduced DB load by 40% through query optimization
+
+[2019.Mar - 2019.Nov] Head of IT @ Royal Ark (RU)
+<span class="highlight">royalarkgames.com</span>
+✓ Built distributed IT infrastructure across 3 offices
+✓ Built and led 5-member engineering team from scratch
+✓ Implemented automated asset management system
+✓ Reduced IT costs by 30% through vendor negotiations
+
+[2018.Jan - 2018.Oct] DevOps Engineer @ FIFA 2018 World Cup
+<span class="highlight">fifa.com/worldcup</span>
+✓ Deployed mission-critical infrastructure for 12 stadiums with 99.99% uptime
+✓ Led 15-member team managing 500+ servers during peak tournament operations
+✓ Implemented military-grade VPN solution 72hrs faster than projected timeline
+✓ Automated telephony inventory system handling 10,000+ devices
+✓ Reduced incident resolution time by 65% through real-time monitoring system
+
+[2017.Aug - 2018.Jan] System Administrator @ OTR-2000 (RU)
+<span class="highlight">otr.ru</span>
+✓ Standardized deployments across 3 UNIX variants (AIX/HP-UX/Linux)
+✓ Optimized Oracle DB performance achieving 150% throughput improvement
+✓ Automated 80% of CI/CD pipelines using Jenkins/TeamCity integration
+✓ Reduced deployment failures by 40% through SVN branching strategy
+✓ Maintained 100% SLA compliance for government infrastructure projects
+
+[2013.Jun - 2017.May] System Administrator @ Rostpay (RU)
+<span class="highlight">rostpay.ru</span>
+✓ Managed 200+ servers handling 50M+ daily transactions
+✓ Implemented HA cluster solution reducing downtime by 90%
+✓ Migrated legacy PBX to Asterisk VoIP saving $250k annually
+✓ Designed multi-vendor network infrastructure serving 5000+ users
+✓ Automated hardware diagnostics reducing MTTR by 75%
+✓ Consolidated monitoring systems into unified dashboard
+</div>
+
+        <div class="command" onclick="showSection('contact')">./connect.sh</div>
+        <div id="contact" class="output" style="display: none;">
+            Email: <span class="highlight">wps1989@gmail.com</span>
+            LinkedIn: <a href="https://linkedin.com/in/pavel-vrasskii/" class="highlight">linkedin.com/in/pavel-vrasskii/</a>
+            Phone: <span class="highlight">+44 7393 436073</span>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
